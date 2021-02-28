@@ -480,6 +480,6 @@ function makeChart(data1) {
 // This function reads the csv file (the one that google form generates)
 // and returns an array object 'd'
 // on that array object makeChart function is applied
-d3.csv("Internship form.csv", (d) => {
+d3.csv("excel.csv", (d) => {
   makeChart(d);
 });
